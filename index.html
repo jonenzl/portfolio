@@ -1,11 +1,341 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <meta name="description" content="The portfolio of Jonathan Ellis, a designer based in New Zealand">
+  <meta name="keywords" content="jonathan ellis, jonathan, ellis, jonathan ellis design, jonathan ellis website, jonathan ellis designer, web design, ui design, ux design, web development">
+  <meta name="author" content="Jonathan Ellis">
+  <meta name="robots" content="index,follow">
+  
+  <link rel="icon"href="images/favicons/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="images/favicons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="images/favicons//site.webmanifest">
+  <link rel="mask-icon" href="images/favicons//safari-pinned-tab.svg" color="#485057">
+  <meta name="msapplication-TileColor" content="#2d89ef">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Jonathan Ellis | User Interface and Experience Designer</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css?version=4.5">
+  
+  <!-- IBM Plex Sans -->
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  
+  <!-- IBM Plex Serif -->
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400,400i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-102259607-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 </head>
+
 <body>
-    <h1>Hello World</h1>
+  
+  <!-- Navigation -->
+  <nav class="navbar navbar-light bg-faded navbar-toggleable-sm">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img class="main-logo" src="images/logo.svg" alt="Logo">
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="modal" href="#nav-modal" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+   
+  <!-- Navigation Modal -->
+  <div class="nav-modal modal fade" id="nav-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="nav-header-container">
+            <div class="container">
+              <div class="modal-close-button">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+              <a href="/"><img class="modal-logo" src="images/logo.svg" alt="Logo"></a>
+            </div>
+          </div>
+          <div class="nav-content-container">
+            <div class="container">
+              <div class="modal-nav-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <p class="mb-2 mb-sm-4">Explore work</p>
+                    <div class="row">
+                      <div class="col-sm">
+                        <ul class="modal-nav mb-0">
+                          <li>
+                            <a class="nav-modal-link" href="work/problem-with-passwords/">The Problem with Passwords</a>
+                          </li>
+                          <li>
+                            <a class="nav-modal-link" href="work/adobe-xd-challenge/">Adobe XD Challenge</a>
+                          </li>
+                          <li>
+                            <a class="nav-modal-link" href="work/refocusing-my-portfolio/">Refocusing my Portfolio</a>
+                          </li>
+                          <li>
+                            <a class="nav-modal-link" href="../../work/developing-a-plugin/">Developing an Adobe XD Plugin</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <p class="mb-2 mb-sm-4 mt-3 mt-sm-0">Learn more</p>
+                    <ul class="modal-nav">
+                      <li>
+                        <a class="nav-modal-link" href="about.html">About</a>
+                      </li>
+                      <li>
+                        <a class="nav-modal-link" href="https://www.behance.net/JonathanEllis" target="_blank">Behance Profile</a>
+                      </li>
+                      <li>
+                        <a class="nav-modal-link" href="https://dribbble.com/jonenz" target="_blank">Dribbble Profile</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <ul class="social-menu">
+                  <li>
+                    <a class="nav-social-link" target="_blank" href="https://www.linkedin.com/in/ellisjonathan/">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="nav-social-link" target="_blank" href="https://www.instagram.com/jonenzl/">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="nav-social-link" target="_blank" href="https://twitter.com/jonenzl">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="nav-social-link" target="_blank" href="https://github.com/jonenzl">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="nav-social-link" target="_blank" href="https://www.behance.net/JonathanEllis">
+                      <i class="fab fa-behance"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="nav-social-link" target="_blank" href="https://dribbble.com/jonenz">
+                      <i class="fab fa-dribbble"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Header -->
+  <header>
+    <div class="container">
+    <div class="row align-items-center">
+        <div class="header-content col-12 col-md-6 pb-5 pt-5 py-md-0">
+          <h1>Jonathan</h1>
+          <h1>Ellis</h1>
+          <h4 class="my-4">
+            User Interface and Experience Designer.
+          </h4>
+          <a class="btn btn-primary btn-lg" href="about.html" role="button">About me</a>
+        </div>
+        <div class="col-md-6 d-none d-md-block">
+          <img class="header-image" src="images/header.png" alt="Header image showing mobile UI" >
+        </div>
+    </div>
+      </div>
+  </header>
+  
+  <!-- Blurb -->
+  <section class="bg-grey py-sm-5 py-3 mb-4 mb-sm-5">
+    <div class="container">
+      <div class="row">
+        <div class="blurb-left col-md-6 pr-md-5 mb-2 mb-md-0">
+          <h4>
+            I am a user interface and experience designer skilled at designing and developing user-centric, engaging, and effective digital experiences across many platforms.
+          </h4>
+        </div>
+        <div class="blurb-right col-md-6">
+          <h5>
+            I love solving problems and working collaboratively on the whole product life cycle — understanding user needs, creating wireframes, making prototypes, and building products.
+          </h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Project 1 -->
+  <section id="project-promo" class="py-4 py-sm-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <a href="work/problem-with-passwords/"><h1>The Problem with Passwords</h1></a>
+          <h4 class="mt-3 mt-md-4 mb-2 mb-md-3 pr-4">Users have a lot of passwords to remember, and it’s a problem.</h4>
+          <p class="project-promo-info">UX, UI, Prototyping<span class="project-promo-info-separator mx-3">•</span>2019</p>
+        </div>
+        <div class="col-lg-6 d-none d-lg-block">
+          <p class="project-promo-description mb-4">
+            User authentication doesn’t scale well. The more accounts we create, the more passwords we need to remember. It’s not only the number of accounts that can cause problems, there is also a fundamental tension between convenience and security.
+          </p>
+          <a class="btn btn-primary btn-lg project-promo-btn" href="work/problem-with-passwords/" role="button">View case study</a>
+        </div>
+      </div>
+      <a href="work/problem-with-passwords/"><img class="project-promo-image mt-2 mt-sm-3 shadow-sm" src="work/problem-with-passwords/images/problem-with-passwords.png" alt="Promo image for the Problem with Passwords case study" ></a>
+    </div>
+  </section>
+  
+  <!-- Project 2 -->
+  <section id="project-promo" class="py-4 py-sm-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <a href="work/adobe-xd-challenge/"><h1>Adobe XD Challenge</h1></a>
+          <h4 class="mt-3 mt-md-4 mb-2 mb-md-3 pr-4">18 days, 18 challenges. Learn UX, UI, and prototyping with Adobe XD.</h4>
+          <p class="project-promo-info">UX, UI, Prototyping<span class="project-promo-info-separator mx-3">•</span>2018</p>
+        </div>
+        <div class="col-lg-6 d-none d-lg-block">
+          <p class="project-promo-description mb-4">
+            In an effort to further develop my prototyping skills, I participated in the daily challenges set by the Adobe team on Behance in September and November 2018
+          </p>
+          <a class="btn btn-primary btn-lg project-promo-btn" href="work/adobe-xd-challenge/" role="button">View case study</a>
+        </div>
+      </div>
+      <a href="work/adobe-xd-challenge/"><img class="project-promo-image mt-2 mt-sm-3 shadow-sm" src="work/adobe-xd-challenge/images/adobe-xd-challenge.jpg" alt="Promo image for the Adobe XD Challenge case study" ></a>
+    </div>
+  </section>
+  
+  <!-- Project 3 -->
+  <section id="project-promo" class="py-4 py-sm-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <a href="work/refocusing-my-portfolio/"><h1>Refocusing my Portfolio</h1></a>
+          <h4 class="mt-3 mt-md-4 mb-2 mb-md-3 pr-4">Telling the story of how I design rather than just showing visuals.</h4>
+          <p class="project-promo-info">UX, UI, Front-End Dev<span class="project-promo-info-separator mx-3">•</span>2018 - 2019</p>
+        </div>
+        <div class="col-lg-6 d-none d-lg-block">
+          <p class="project-promo-description mb-4">
+            Redesigning my portfolio to focus on what matters — showing my process and taking readers on the journey to define the problem, understand the users, and to create and execute the solution.
+          </p>
+          <a class="btn btn-primary btn-lg project-promo-btn" href="work/refocusing-my-portfolio/" role="button">View case study</a>
+        </div>
+      </div>
+      <a href="work/refocusing-my-portfolio/"><img class="project-promo-image mt-2 mt-sm-3 shadow-sm" src="work/refocusing-my-portfolio/images/portfolio-redesign.png" alt="Promo image for the Portfolio Redesign case study" ></a>
+    </div>
+  </section>
+  
+  <!-- Project 4 -->
+  <section id="project-promo" class="py-4 py-sm-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <a href="work/developing-a-plugin/"><h1>Developing an Adobe XD Plugin</h1></a>
+          <h4 class="mt-3 mt-md-4 mb-2 mb-md-3 pr-4">Creating a plugin to automate a common workflow in Adobe XD.</h4>
+          <p class="project-promo-info">UX, UI, Development<span class="project-promo-info-separator mx-3">•</span>2019</p>
+        </div>
+        <div class="col-lg-6 d-none d-lg-block">
+          <p class="project-promo-description mb-4">
+            While explaining the process of adding drop shadows to masked images in Adobe XD, which involves several steps, I realised that this would be a great process to automate. So I decided to make a plugin that would help users to accomplish this repeatable task.
+          </p>
+          <a class="btn btn-primary btn-lg project-promo-btn" href="work/developing-a-plugin/" role="button">View case study</a>
+        </div>
+      </div>
+      <a href="work/developing-a-plugin/"><img class="project-promo-image mt-2 mt-sm-3 shadow-sm" src="work/developing-a-plugin/images/adobe-xd-plugin.png" alt="Promo image for the Plugin Development case study" ></a>
+    </div>
+  </section>
+  
+  <section id="project-promo" class="bg-grey mt-4 py-4 py-sm-5">
+    <div class="container">
+      <h2>Explore more work</h2>
+      <div class="card-deck mt-4">
+        <div class="card shadow-sm">
+          <a href="https://www.behance.net/JonathanEllis" target="_blank" class="card-link"><img src="images/behance.jpg" class="card-img-top" alt="Behance preview image"></a>
+          <div class="card-body">
+            <a href="https://www.behance.net/JonathanEllis" target="_blank" class="card-link"><h4 class="card-title">Behance</h4></a>
+            <p class="card-text">View more projects on my Behance profile.</p>
+            <a class="btn btn-primary btn-lg project-promo-btn mt-3" href="https://www.behance.net/JonathanEllis" target="_blank" role="button">Explore Behance</a>
+          </div>
+        </div>
+        <div class="card shadow-sm">
+          <a href="https://dribbble.com/jonenz" target="_blank" class="card-link"><img src="images/dribbble.jpg" class="card-img-top" alt="Dribbble preview image"></a>
+          <div class="card-body">
+            <a href="https://dribbble.com/jonenz" target="_blank" class="card-link"><h4 class="card-title">Dribbble</h4></a>
+            <p class="card-text">View more shots on my Dribbble profile.</p>
+            <a class="btn btn-primary btn-lg project-promo-btn mt-3" href="https://dribbble.com/jonenz" target="_blank" role="button">Explore Dribbble</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+      
+  <!-- Footer -->
+  <footer id="about-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-3">
+          <p>
+            &copy; <script type="text/javascript">document.write(new Date().getFullYear());
+            </script> Jonathan Ellis
+          </p>
+        </div>
+        <div class="col-sm-6 col-md-6 footer-middle"> 
+          <p>Crafted in New Zealand, powered by  <span class="coffee">☕</span>.</p>
+        </div>
+        <div class="col-sm-3 footer-right d-none d-md-block">
+          <a href="/" class="back-to-top">
+            <i class="fa fa-arrow-circle-up"></i>
+          </a>
+        </div>
+      </div> 
+    </div>
+  </footer>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <!-- PopperJS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  
+  <!-- Tether -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  
+  <!-- Custom JS -->
+  <script src="scripts/main.js?version=3.0" type="text/javascript"></script>
+        
 </body>
 </html>

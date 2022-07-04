@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <meta name="description" content="The portfolio of Jonathan Ellis, a designer based in New Zealand">
+  <meta name="keywords" content="jonathan ellis, jonathan, ellis, jonathan ellis design, jonathan ellis website, jonathan ellis designer, web design, ui design, ux design, web development">
+  <meta name="author" content="Jonathan Ellis">
+  <meta name="robots" content="index,follow">
+
+  <link rel="icon"href="../../images/favicons/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="../../images/favicons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../images/favicons//apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="../../images/favicons//site.webmanifest">
+  <link rel="mask-icon" href="../../images/favicons//safari-pinned-tab.svg" color="#485057">
+  <meta name="msapplication-TileColor" content="#2d89ef">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>The Problem with Passwords | Jonathan Ellis</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../../css/style.css?version=4.5">
+  
+  <!-- IBM Plex Sans -->
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  
+  <!-- IBM Plex Serif -->
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400,400i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-102259607-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</head>
+
+<body>
+  
+  <!-- Navigation -->
+  <nav class="navbar navbar-light bg-faded navbar-toggleable-sm">
+    <div class="container">
+      <a class="navbar-brand" href="../../">
+        <img class="main-logo" src="../../images/logo.svg" alt="Logo">
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="modal" href="#nav-modal" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+  
+  <!-- Navigation Modal -->
+  <div class="nav-modal modal fade" id="nav-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="nav-header-container">
+            <div class="container">
+              <div class="modal-close-button">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+              <a href="../../"><img class="modal-logo" src="../../images/logo.svg" alt="Logo"></a>
+            </div>
+          </div>
+          <div class="nav-content-container">
+            <div class="container">
+              <div class="modal-nav-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <p class="mb-2 mb-sm-4">Explore work</p>
+                    <div class="row">
+                      <div class="col-sm">
+                        <ul class="modal-nav mb-0">
+                          <li>
+                            <a class="nav-modal-link" href="../../work/problem-with-passwords/">The Problem with Passwords</a>
+                          </li>
+                          <li>
+                            <a class="nav-modal-link" href="../../work/adobe-xd-challenge/">Adobe XD Challenge</a>
+                          </li>
+                          <li>
+                            <a class="nav-modal-link" href="../../work/refocusing-my-portfolio/">Refocusing my Portfolio</a>
+                          </li>
+                          <li>
+                            <a class="nav-modal-link" href="../../work/developing-a-plugin/">Developing an Adobe XD Plugin</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <p class="mb-2 mb-sm-4 mt-3 mt-sm-0">Learn more</p>
+                    <ul class="modal-nav">
+                      <li>
+                        <a class="nav-modal-link" href="../../about.html">About</a>
+                      </li>
+                      <li>
+                        <a class="nav-modal-link" href="https://www.behance.net/JonathanEllis" target="_blank">Behance Profile</a>
+                      </li>
+                      <li>
+                        <a class="nav-modal-link" href="https://dribbble.com/jonenz" target="_blank">Dribbble Profile</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <ul class="social-menu">
+                  <li>
+                    <a class="nav-social-link" target="_blank" href="https://www.linkedin.com/in/ellisjonathan/">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="nav-social-link" target="_blank" href="https://www.instagram.com/jonenzl/">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="nav-social-link" target="_blank" href="https://twitter.com/jonenzl">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="nav-social-link" target="_blank" href="https://github.com/jonenzl">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="nav-social-link" target="_blank" href="https://www.behance.net/JonathanEllis">
+                      <i class="fab fa-behance"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="nav-social-link" target="_blank" href="https://dribbble.com/jonenz">
+                      <i class="fab fa-dribbble"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Work Header Section -->
+  <section class="work-header mt-3 mt-md-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 align-self-start">
+          <h1>The Problem with Passwords</h1>
+          <h4 class="mt-3 mt-md-4 pr-5">Users have a lot of passwords to remember, and it’s a problem.</h4>
+        </div>
+        <div class="col-lg-5 align-self-end mb-1 d-none d-lg-block">
+          <div class="row">
+            <div class="col-sm-5 pl-lg-0">
+              <p class="work-header-info-title">Role</p>
+              <p class="work-header-info-detail">UX, UI, Prototyping</p>
+            </div>
+            <div class="col-sm-3">
+              <p class="work-header-info-title">Category</p>
+              <p class="work-header-info-detail">Web</p>
+            </div>
+            <div class="col-sm-4 pr-lg-0">
+              <p class="work-header-info-title">Timeframe</p>
+              <p class="work-header-info-detail">2019</p>
+            </div>
+          </div>       
+        </div>
+      </div>
+      <div class="d-block d-lg-none">
+        <div class="row justify-content-start">
+          <div class="col-6 col-sm-4">
+            <p class="work-header-info-title">Role</p>
+            <p class="work-header-info-detail">UX, UI, Prototyping</p>
+          </div>
+          <div class="col-6 col-sm-4">
+            <p class="work-header-info-title">Timeframe</p>
+            <p class="work-header-info-detail">2019</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="work-header-image-password mt-4 mt-md-5">
+      <div class="container">
+        <img class="work-image-full rounded-0" src="images/problem-with-passwords-header.png" Alt="Header image for Problems with Passwords case study" >
+      </div>
+    </div>
+  </section>
+  
+  <section class="py-5">
+    <div class="container">
+      <h3 class="work-subheading mt-md-4 mb-4">Overview</h3>
+      <p class="work-paragraph">
+        User authentication doesn’t scale well. The more accounts we create, the more passwords we need to remember. In a <a href="https://www.lastpass.com/psychology-of-passwords" target="_blank" class="body-link">recent report</a> released by LastPass, nearly half of respondents said they had between one and ten online accounts. Yet research revealed that the average person using a password manager keeps track of almost 200 passwords. It's no wonder then that the <a href="https://www.teamsid.com/splashdatas-top-100-worst-passwords-of-2018/" target="_blank" class="body-link">top five passwords</a> for 2018 were: <span class="work-callout">123456, password, 123456789, 12345678, and 12345.</span>
+      </p>
+      <p class="work-paragraph">
+        Due to the large number of accounts that require passwords, users employ a variety of methods to handle that complexity. Whether people reuse simple passwords, write passwords in a book, or store random passwords in a password manager — each method has its benefits and drawbacks. Often which strategy someone uses is based on their motivations and beliefs regarding access and security.
+      </p>
+      <div class="row work-stats mt-5 mb-5">
+        <div class="col-sm-4 px-5 pr-sm-3">
+          <p class="work-stats-percentage mb-4">67<span class="percent-sign">%</span></p>
+          <p class="work-stats-text mb-5 mb-sm-0">of millenials use just one or two passwords because they are afraid of forgetting.</p>
+        </div>
+        <div class="col-sm-4 px-5 px-sm-3">
+          <p class="work-stats-percentage mb-4">90<span class="percent-sign">%</span></p>
+          <p class="work-stats-text mb-5 mb-sm-0">believe their accounts are always at risk, even if they have a strong password.</p>
+        </div>
+        <div class="col-sm-4 px-5 pl-sm-3 pr-sm-5">
+          <p class="work-stats-percentage mb-4">28<span class="percent-sign">%</span></p>
+          <p class="work-stats-text mb-0">of user's employ two-factor authentication, and only 44% have even heard of it.</p>
+        </div>
+      </div>
+      <p class="source mb-5 pl-sm-5"><em>Sources: <a href="https://www.lastpass.com/psychology-of-passwords" target="_blank">LastPass - The Psychology of Passwords</a> and <a href="https://duo.com/blog/state-of-the-auth-experiences-and-perceptions-of-multi-factor-authentication" target="_blank">Duo Labs - State of the Auth</a></em></p>
+      <p class="work-paragraph-last mb-md-4">
+        It’s not only the number of accounts in combination with a user’s beliefs that can cause problems, there is also a <span class="work-callout">fundamental tension between convenience and security</span>. If we design our products for too much convenience, we risk compromising our users' security. However, if we make security a burden for the user, we risk losing user sign ups and engagement or even prevent existing users from accessing our products.
+      </p>
+    </div>
+  </section>
+  
+  <section class="bg-grey py-5">
+    <div class="container">
+      <h3 class="work-subheading mt-md-4 mb-4">Defining the Problem</h3>
+      <p class="work-paragraph">
+        Each time a user signs up for an account they are confronted with the challenge of making a password. During this process they may ask themselves a few questions, such as:
+      </p>
+      <ul class="work-list no-bullet work-paragraph work-callout">
+        <li class="bullet-question">How often will I access this account?</li>
+        <li class="bullet-question">Where and on which devices will I need access?</li>
+        <li class="bullet-question">How valuable and important is the information this account will store?</li>
+      </ul>
+      <p class="work-paragraph">
+        The type of passwords a user creates depends on their behaviours and beliefs. They might choose a common password that they remember, therefore improving the speed and availability of access across different devices. Conversely, they may opt for a higher level of security, but have to complete many steps before being able to use the product.
+      </p>
+      <p class="work-paragraph">
+        The first problem this project will explore is <span class="work-callout">the tension between convenience and security</span>. Users may value convenience, which allows ease of access but makes them more vulnerable to being compromised. Others may value security, at the expense of increasing the steps they must take to access their accounts which introduces more failure points.
+      </p>
+      <p class="work-paragraph-last mb-md-4">
+        The second problem I will explore is <span class="work-callout">the low usage of two-factor authentication (2FA)</span>. While 2FA methods greatly increase security, most users do not utilise this added layer of protection. People may not know about 2FA or how to set it up to work easily for them. Also, if a user does not have constant access to the method they have chosen — whether email, phone number, or an authenticator app — they might be unable to access their accounts or complete certain transactions.
+      </p>
+    </div>
+  </section>
+  
+  <section class="py-5">
+    <div class="container">
+      <h3 class="work-subheading mt-md-4 mb-4">Process</h3>
+      <p class="work-paragraph-last">
+        For this project I decided to follow the <span class="work-callout">Design Thinking</span> methodology. This method ensures that I am basing all of my concepts and design decisions on the needs of real users.
+      </p>
+      <img class="work-image-full my-5" src="images/design-thinking.png" Alt="Design Thinking process diagram" >
+      <h4 class="work-subheading mb-2">Empathise</h4>
+      <p class="work-paragraph-last">
+        Everyone who uses the internet will have created many accounts, whether for personal or professional use. In an effort to understand the current attitudes and practices in managing online accounts and security, I read a few studies and research papers on this topic. I also conducted some in-person user interviews to gain insight into their behaviours and beliefs regarding the protection of their identity and information online. From these interviews I created three proto-personas in order to better understand the expectations, concerns, and motivations of different types of users.
+      </p>
+      
+      <div class="persona p-4 mt-5 bg-grey rounded">
+        <p class="persona-subtitle mb-1">Proto-persona #1</p>
+        <h5 class="persona-title font-weight-bold">The Convenience User</h5>
+          <div class="row mt-3">
+            <div class="col-md">
+              <p class="persona-column-title mb-2">Demographics</p>
+              <ul class="persona-column-list">
+                <li>Age 20-30, unmarried, no children</li>
+                <li>Works full-time</li>
+                <li>More than 30 accounts, 10+ daily</li>
+              </ul>
+            </div>
+            <div class="col-md">
+              <p class="persona-column-title mb-2">Behaviours and Beliefs</p>
+              <ul class="persona-column-list">
+                <li>Remembers their passwords</li>
+                <li>Worried about forgetting so they use only a couple passwords</li>
+                <li>May use 2FA if convenient</li>
+                <li>Does not worry about being compromised</li>
+              </ul>
+            </div>
+            <div class="col-md">
+              <p class="persona-column-title mb-2">Needs and Goals</p>
+              <ul class="persona-column-list">
+                <li>Easy and constant access to their services and profiles</li>
+                <li>Wants to protect their information, but not at the expense of speed</li>
+              </ul>
+            </div>
+          </div>
+      </div>
+      <div class="persona p-4 mt-3 bg-grey rounded">
+        <p class="persona-subtitle mb-1">Proto-persona #2</p>
+        <h5 class="persona-title font-weight-bold">The Moderate User</h5>
+          <div class="row mt-3">
+            <div class="col-md">
+              <p class="persona-column-title mb-2">Demographics</p>
+              <ul class="persona-column-list">
+                <li>Age 50+, married, adult children</li>
+                <li>Works full-time</li>
+                <li>More than 20 accounts, 10+ daily</li>
+              </ul>
+            </div>
+            <div class="col-md">
+              <p class="persona-column-title mb-2">Behaviours and Beliefs</p>
+              <ul class="persona-column-list">
+                <li>Remembers their passwords or writes them in a book</li>
+                <li>Uses strong, unique (but related) passwords for each account</li>
+                <li>Doesn't know how to set up 2FA</li>
+                <li>Only worries a little about being compromised</li>
+              </ul>
+            </div>
+            <div class="col-md">
+              <p class="persona-column-title mb-2">Needs and Goals</p>
+              <ul class="persona-column-list">
+                <li>Wants to be secure enough</li>
+                <li>Wants to feel safe while online, especially using banking</li>
+                <li>Convenience is still most important</li>
+              </ul>
+            </div>
+          </div>
+      </div>
+      <div class="persona p-4 mt-3 mb-5 bg-grey rounded">
+        <p class="persona-subtitle mb-1">Proto-persona #3</p>
+        <h5 class="persona-title font-weight-bold">The Security User</h5>
+          <div class="row mt-3">
+            <div class="col-md">
+              <p class="persona-column-title mb-2">Demographics</p>
+              <ul class="persona-column-list">
+                <li>Age 30-40, married, children</li>
+                <li>Works full-time</li>
+                <li>More than 50 accounts, 15+ daily</li>
+              </ul>
+            </div>
+            <div class="col-md">
+              <p class="persona-column-title mb-2">Behaviours and Beliefs</p>
+              <ul class="persona-column-list">
+                <li>Uses a password manager</li>
+                <li>Uses strong, randomly generated passwords for each account</li>
+                <li>Always uses 2FA</li>
+                <li>Worries about being compromised or a privacy breach</li>
+              </ul>
+            </div>
+            <div class="col-md">
+              <p class="persona-column-title mb-2">Needs and Goals</p>
+              <ul class="persona-column-list">
+                <li>High level of security and privacy</li>
+                <li>Wants to know they are safe online and protect their personal info</li>
+                <li>Wants to use two-factor authentication within services to complete certain actions (ie. bank transfers)</li>
+              </ul>
+            </div>
+          </div>
+      </div>
+      
+      <p class="work-paragraph-last">
+        I also analysed the typical user flows for each of my proto-personas when they are signing into their accounts, so I could more fully understand the different experiences people have depending on how they choose to manage their online profiles and security.
+      </p>
+      <img class="work-image-full my-5" src="images/persona-user-flows.png" Alt="User flow diagram for personas" >
+      <h4 class="work-subheading mb-2">Define</h4>
+      <p class="work-paragraph">
+        The next phase of my analysis was to define the problems. After synthesising my understanding from my research, I decided to focus on two problems: <span class="work-callout">convenience vs. security</span> and <span class="work-callout">two-factor authentication</span>. From my user research, these two areas stood out as has having the greatest amount of variability in behaviours and beliefs. Therefore, they seemed like good areas to investigate further.
+      </p>
+      <p class="work-paragraph">
+        I then used the <a href="https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27" target="_blank" class="body-link">Jobs To Be Done framework</a> — which includes creating <span class="work-callout">Job Stories</span> with a <span class="work-callout" style="color: crimson;">situation</span>, a <span class="work-callout" style="color: darkorange;">motivation</span>, and an <span class="work-callout" style="color: mediumseagreen;">expected outcome</span> — to expand on my proto-personas and explore their different wants and needs.
+      </p>
+      <ul class="work-list no-bullet work-paragraph work-callout">
+        <li class="bullet-check">
+          When the <span style="color: crimson;">Convenience User goes online</span>, they want to <span style="color: darkorange;">quickly and easily access their accounts</span>, so they can <span style="color: mediumseagreen;">always stay connected</span>.
+        </li>
+        <li class="bullet-check">
+          When the <span style="color: crimson;">Moderate User goes online</span>, they want to <span style="color: darkorange;">easily, but securely access their accounts</span>, so they can <span style="color: mediumseagreen;">feel safe while online</span>.
+        </li>
+        <li class="bullet-check">
+          When the <span style="color: crimson;">Security User goes online</span>, they want to <span style="color: darkorange;">securely access their accounts using multiple factors</span>, so they <span style="color: mediumseagreen;">know that their information and transactions are protected</span>.
+        </li>
+      </ul>
+      <p class="work-paragraph">
+        From my research, user interviews, and job stories I then created two <span class="work-callout">How Might We</span> questions:
+      </p>
+      <ol class="work-list no-bullet work-paragraph work-callout">
+        <li class="bullet-question">How might we design account sign up experiences that allow users to quickly create an account while encouraging them to follow better security guidelines?</li>
+        <li class="bullet-question">How might we implement two-factor authentication solutions that are easy to set up, convenient to use, and always accessible?</li>
+      </ol>
+      <h4 class="work-subheading mb-2 mt-4 mt-lg-5">Ideate</h4>
+      <p class="work-paragraph-last">
+        By sketching out solutions on paper, I could quickly and easily concept different ideas. My main objective was to create a signup form that would allow users quickly create an account while guiding them in making a strong password.
+      </p>
+      <img class="work-image-full mt-5 shadow-sm" src="images/password-wireframe.jpg" Alt="Wireframe of a sign up form" >
+      <p class="work-image-caption mt-3 mb-5">Wireframe concept for signup form.</p>
+      <h4 class="work-subheading mb-2 mt-4">Prototype</h4>
+      <p class="work-paragraph-last">
+        I created a prototype for my account sign up experience which incorporates my learnings from user research and the recommendations for strong passwords suggested by security experts.
+      </p>
+      <div class="resp-images">
+        <img class="work-image-resp mt-5" src="images/signup-prototype.png" Alt="Mockup of a sign up form" >
+        <p class="work-image-caption mt-3 mb-5">Signup form prototype.</p>
+        <img class="work-image-resp mt-5" src="images/signup-prototype-error.png" Alt="Mockup of a sign up form with inline validation" >
+        <p class="work-image-caption mt-3 mb-5">Show inline validation messages.</p>
+        <img class="work-image-resp mt-5" src="images/signup-prototype-password-suggested.png" Alt="Mockup of a sign up form with suggested password" >
+        <p class="work-image-caption mt-3 mb-5">Suggested password popup.</p>
+        <img class="work-image-resp mt-5" src="images/signup-prototype-password.png" Alt="Mockup of a completed sign up form" >
+        <p class="work-image-caption mt-3 mb-5">Check off password requirements.</p>
+        <img class="work-image-resp mt-5" src="images/signup-prototype-password-show.png" Alt="Mockup of a completed sign up form with password showing" >
+        <p class="work-image-caption mt-3 mb-5">Show the user's password.</p>
+      </div>
+      <p class="work-paragraph work-callout">Proposed solution:</p>
+      <ol class="work-list no-bullet work-paragraph">
+        <li class="bullet-check">Require strong passwords
+          <ul class="no-bullet second-tier">
+            <li class="bullet-1 mt-3">
+              At least 8 characters long, using both upper case and lower case characters, numbers, and symbols <span class="work-callout">OR</span> at least 15 characters long with any combination of characters
+            </li>
+            <li class="bullet-2">
+              Always show the minimum requirements and check off when met
+            <li class="bullet-3">
+              The minimum requirements would ensure users are creating more secure passwords. Having two different sets of requirements would allow the user to either create a shorter, more complex password or use a long passphrase. These requirements would create at least two quadrillion different combinations.
+            </li>
+          </ul>
+        </li>
+        <li class="bullet-check mt-3">
+          Show the user what a secure password looks like by including a popup with a suggested password when the password input is in focus
+        </li>
+        <li class="bullet-check mt-3">
+          Don't require a password confirmation step and allow the user to unmask their password during signup
+          <ul class="no-bullet second-tier">
+            <li class="bullet-1 mt-3">
+              Letting the user see their unmasked password during sign up helps with password memorisation and correcting any mistakes
+            </li>
+            <li class="bullet-2">
+              Hiding the password and require a confirmation tends to encourage users to create simple passwords that are easily remembered and typed without mistakes
+            </li>
+          </ul>
+        </li>
+        <li class="bullet-check mt-3">
+          Show appropriate and clearly defined inline validation messages
+          <ul class="no-bullet second-tier">
+            <li class="bullet-1 mt-3">
+              Error information would be shown below the input field and encourages the user to take immediate action
+            </li>
+            <li class="bullet-2">
+              Form validation should be immediate and clearly communicated using colour and copy
+            </li>
+          </ul>
+        </li>
+        <li class="bullet-check mt-3">
+          The sign up submission button is disabled until the form has been filled out without errors and the password has passed the minimum requirements
+        </li>
+      </ol>
+      <p class="work-paragraph-last">
+        I also protoyped a user flow for setting up and using an authenicator app for 2FA. I decided to create a user flow because 2FA requires using multiple services, rather than just several screens on only one website or app. My main objective was to create a common method of using 2FA that could be used for any account, on any device, anywhere in the world.
+      </p>
+      <img class="work-image-full my-5" src="images/2fa-flow.png" Alt="User flow diagram for setting up and using two factor authentication" >
+      <p class="work-paragraph work-callout">Proposed solution:</p>
+      <ol class="work-list no-bullet work-paragraph">
+        <li class="bullet-check">
+          Enabling and setting up 2FA would be part of the onboarding experience, after the user has created an account and verified their email address or phone number
+        </li>
+        <li class="bullet-check mt-3">
+          Include many different types of 2FA including email, phone, authenticator apps, or tokens
+          <ul class="no-bullet second-tier">
+            <li class="bullet-1 mt-3">
+              The user would have the flexibility to choose the solution that best suits them
+            </li>
+            <li class="bullet-2">
+              Streamline and simplify the process of enabling and using 2FA to encourage uptake
+            </li>
+            <li class="bullet-3">
+              The user could use one common method of 2FA for all of their accounts rather than recieving SMS codes from one service, emails from another, and authenticator app codes for a third
+            </li>
+          </ul>
+        </li>
+        <li class="bullet-check mt-3">
+          2FA should be available offline and accessible anywhere in the world
+          <ul class="no-bullet second-tier">
+            <li class="bullet-1 mt-3">
+              We don't want our users to run into geographic or physical restrictions. For instance, if the only option was to receive 2FA codes via SMS, a user might have an issue signing into their account or completing a transaction if they have a new phone number, are travelling, or have moved to a foreign country.
+            </li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+  </section>
+  
+  <section class="py-5 bg-grey">
+    <div class="container">
+      <h3 class="work-subheading mt-md-4 mb-4">Outcome and Lessons</h3>
+      <p class="work-paragraph">
+        While the ideal would be to require everyone to use strong, randomly generated, unique passwords and 2FA for every account, this isn't realistic. Users have different beliefs and motivations, leading to a wide variety of behaviours. Therefore, as designers, we must think critically about how we create our products, our signup and login flows, and the security settings we provide. As always, our goal is to solve users' problems and meet their needs with the services we provide, balancing convenience with the security and privacy that our users' information requires.
+      </p>
+      <p class="work-paragraph">
+        There are also some additional authentication methods that would be worth exploring in the future.
+      </p>
+      <p class="work-paragraph">
+        Many websites allow users to authenticate themselves using a <span class="work-callout">social login</span>, providing a frictionless way for users to access services without having to create new accounts. However, when a user connects a social account to another service, they are permitting access to their personal data. For instance, in 2016, many people learned that a popular mobile game had requested and received full access to their Google accounts including email, cloud documents, browsing history, and location data. Therefore, the user must assume responsibility for their own privacy by adjusting their permission settings. Furthermore, users are at a greater risk of being compromised when there is only one password protecting multiple accounts, making it a great option for those who value convenience but not so appealing to users who value their security and privacy.
+      </p>
+      <p class="work-paragraph">
+        Another option would be replacing passwords entirely with biometrics, physical tokens, and other <span class="work-callout">passwordless authentication methods</span>. One compelling method is receiving single-use passcodes or links for each sign on, such as Slack's magic links. A user enters their email and then receives a link in their inbox to sign in without using a password. These passwordless methods could be a great combination of both convenience and security.
+      </p>
+      <p class="work-paragraph">
+        Even though there are inherent problems with passwords — they are hard to remember, they aren't always secure, and they add friction and frustration — there are many promising improvements and alternatives that are being trialled by some of our favourite apps and websites.
+      </p>
+      <p class="work-paragraph-last work-callout mb-md-4">
+        The problem with passwords may never be solved. Exploits will always be found and users may not take necessary steps to protect themselves. However, the design and security communities have the responsibility to investigate the best methods to improve the convenience and security of user authentication.
+      </p>
+    </div>
+  </section>
+      
+  <!-- Footer -->
+  <footer id="about-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-3">
+          <p>
+            &copy; <script type="text/javascript">document.write(new Date().getFullYear());
+            </script> Jonathan Ellis
+          </p>
+        </div>
+        <div class="col-sm-6 col-md-6 footer-middle"> 
+          <p>Crafted in New Zealand, powered by  <span class="coffee">☕</span>.</p>
+        </div>
+        <div class="col-sm-3 footer-right d-none d-md-block">
+          <a href="../../work/problem-with-passwords/" class="back-to-top">
+            <i class="fa fa-arrow-circle-up"></i>
+          </a>
+        </div>
+      </div> 
+    </div>
+  </footer>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <!-- PopperJS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  
+  <!-- Tether -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  
+  <!-- Custom JS -->
+  <script src="../../scripts/main.js?version=1.2" type="text/javascript"></script>
+        
+</body>
+</html>
